@@ -105,9 +105,10 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400; }
 
 /*******************************************************{ MASTER HEADER }*****/
 
-#masthead { background: #ABD240;
-height: 182px;
-position: relative;
+#masthead {
+    background: #ABD240;
+    height: 182px;
+    position: relative;
 }
 
 #masthead h1 {
@@ -121,7 +122,6 @@ position: absolute;
     width: 266px;
     height: 28px;
     background: url(../images/javacotea.gif) 0 0 no-repeat;
-    text-indent: -9999px;
     overflow: hidden;
 }
 
