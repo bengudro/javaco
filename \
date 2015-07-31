@@ -1,0 +1,291 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* Travail de fin session | Web 1 | Benjamin Goudreault */
+
+
+/******************************************{ « RESET.CSS » D’ERIC MEYER }*****/
+
+/*	http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body { line-height: 1 }
+ol, ul { list-style: none }
+blockquote, q { quotes: none }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+
+/***********************************************************{ MY STYLES }*****/
+
+/*-----------------------------------------------------------{ CLEARFIX }----*/
+
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after { clear: both }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf { *zoom: 1 }
+
+
+/**********************************************************{ MY CLASSES }*****/
+
+.green { color: #b0d742 }
+.purple { color: #686397 }
+.paddingBottom { padding-bottom: 20px }
+
+img.picleft {
+	float: left;
+	margin: 0 20px 10px 0;
+	border-top: 1px solid #4F4F4F;
+	border-bottom: 1px solid #4C4C4C;
+	border-left: 1px solid #4F4F4F;
+	border-right: 1px solid #4C4C4C;
+	border-radius: 1px
+}
+img.imgleft {
+	float: left;
+	margin: -4px 10px 0 -6px
+}
+
+
+/***************************************************************{ BODY] }*****/
+
+html, body { height: 100% }
+
+body {
+	background: #e3edc2;
+	font-family: Arial, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	outline: 0
+}
+
+
+/************************************************************{ DEFAULTS }*****/
+
+h1, h2, h3, h4, h5, h6 { font-weight: 400 }
+
+
+/*******************************************************{ MASTER HEADER }*****/
+
+#masthead {
+	background: #abd240;
+	height: 182px;
+	position: relative
+}
+#masthead h1 {
+position: absolute;
+	top: 73px;
+	left: 46px
+}
+#masthead h1 a {
+	display: block;
+	width: 266px;
+	height: 28px;
+	background: url(../img/javacotea.gif) 0 0 no-repeat;
+	overflow: hidden
+}
+#curl {
+	display: block;
+	width: 19px;
+	height: 44px;
+	position: absolute;
+	top: 70px;
+	left: 986px;
+	background: url(../img/curl.gif) 0 0 no-repeat
+}
+#navlinks {
+	font-size: 13px;
+	font-weight: 600;
+	display: block;
+	text-indent: 40px;
+	padding-top: 7px;
+	height: 22px;
+	background: #686397;
+	position: relative; top: 153px
+}
+#navlinks li {
+	list-style-type: none;
+	display: inline;
+	color: #9999cc
+}
+#navlinks li a {
+	text-decoration: none;
+	color: #b5ec84
+}
+
+
+/***********************************************************{ CONTAINER }*****/
+
+#container {
+	min-height: 100%;
+	min-width: 1057px
+}
+img.illus {
+	float: left;
+	margin: 12px 12px 12px 0
+}
+#content {
+	overflow:auto;
+	padding-left: 40px;
+	padding-right: 30px;
+	padding-bottom: 55px;
+	width: 773px;
+	float: left;
+	position: relative
+} /* must be same height as the footer */
+#content h2 {
+	background: #fff;
+	font-size: 20px;
+	font-weight: 600;
+	display: block;
+	margin-top: 22px;
+	padding-top: 11px;
+	width: 560px;
+	height: 33px;
+	text-indent: 40px;
+	position: absolute; left: 0
+}
+#content h3 {
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 95px;
+	border-bottom: 1px solid #B0D742
+}
+#content p {
+	padding-top: 13px;
+	line-height: 120%
+}
+
+
+/*************************************************************{ SIDEBAR }*****/
+
+#sidebar {
+	float: left;
+	width: 214px
+}
+
+#search {
+	background: #9b96ca;
+	display: block;
+	height: 46px;
+	margin-top: 23px;
+	padding: 5px
+}
+#search input:first-of-type { width: 120px }
+#search input:last-of-type { width: 60px }
+
+#post-archive {
+	background: #3a3c2d;
+	margin-top: 9px;
+	height: 152px
+}
+#post-archive h3 {
+	background: #9b96ca;
+	display: block;
+	padding-top: 7px;
+	height: 26px;
+	text-indent: 13px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600
+}
+#post { padding: 11px 0 0 26px }
+
+#post li {
+	list-style-type: disc;
+	color: #fff;
+	line-height: 120%
+}
+#post li a {
+	text-decoration: none;
+	color: #fff
+}
+#tea-of-the-day {
+	background: #3a3c2d;
+	margin-top: 9px;
+	height: 313px;
+	color: #fff;
+	line-height: 120%
+}
+#tea-of-the-day p { padding: 10px 13px 10px 13px }
+
+#tea-of-the-day h3 {
+	background: #9b96ca;
+	display: block;
+	padding-top: 7px;
+	height: 26px;
+	text-indent: 13px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600
+}
+#tea-of-the-day h4 {
+	margin: 10px 13px;
+	line-height: 120%;
+	border-bottom: 1px solid #FFF
+}
+img.pic {
+	float: left;
+	margin: 10px 0 0 30px
+}
+
+
+/**************************************************************{ FOOTER }*****/
+
+#footer {
+	background: #a0c63a;
+	padding-top: 18px;
+	height: 37px;
+	text-indent: 40px;
+	position: relative;
+	margin-top: -55px; /* negative value of footer height */
+	clear:both
+}
+/*
+	vim:ts=3 sw=3 noet tw=79
+*/
