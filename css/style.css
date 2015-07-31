@@ -72,7 +72,7 @@ table {
 
 /**********************************************************{ MY CLASSES }*****/
 
-.green { color: #B0D742 }
+.green { color: #b0d742 }
 .purple { color: #686397 }
 .paddingBottom { padding-bottom: 20px }
 
@@ -145,17 +145,16 @@ position: absolute;
 	padding-top: 7px;
 	height: 22px;
 	background: #686397;
-	position: relative; top: 153px;
-
+	position: relative; top: 153px
 }
 #navlinks li {
 	list-style-type: none;
 	display: inline;
-	color: #9999CC
+	color: #9999cc
 }
 #navlinks li a {
 	text-decoration: none;
-	color: #B5EC84
+	color: #b5ec84
 }
 
 
@@ -227,11 +226,11 @@ img.illus {
 }
 #post-archive h3 {
 	background: #9B96CA;
-	display-block;
+	display: block;
 	padding-top: 7px;
 	height: 26px;
 	text-indent: 13px;
-	color: #FFF;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 600
 }
@@ -240,12 +239,12 @@ img.illus {
 }
 #post li {
 	list-style-type: disc;
-	color: #FFF;
+	color: #fff;
 	line-height: 120%
 }
 #post li a {
 	text-decoration: none;
-	color: #FFF
+	color: #fff
 }
 #tea-of-the-day {
 	background: #3A3C2D;
@@ -258,11 +257,11 @@ img.illus {
 
 #tea-of-the-day h3 {
 	background: #9B96CA;
-	display-block;
+	display: block;
 	padding-top: 7px;
 	height: 26px;
 	text-indent: 13px;
-	color: #FFF;
+	color: #fff;
 	font-size: 16px;
 	font-weight: 600
 }
