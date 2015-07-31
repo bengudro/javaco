@@ -96,7 +96,7 @@ img.imgleft {
 html, body { height: 100% }
 
 body {
-    background: #E3EDC2;
+    background: #e3edc2;
     font-family: Arial, Tahoma, Verdana, Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #333;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400 }
 /*******************************************************{ MASTER HEADER }*****/
 
 #masthead {
-    background: #ABD240;
+    background: #abd240;
     height: 182px;
     position: relative
 }
@@ -178,7 +178,7 @@ img.illus {
     position: relative
 } /* must be same height as the footer */
 #content h2 {
-    background: #FFF;
+    background: #fff;
     font-size: 20px;
     font-weight: 600;
     display: block;
@@ -210,7 +210,7 @@ img.illus {
 }
 
 #search {
-    background: #9B96CA;
+    background: #9b96ca;
     display: block;
     height: 46px;
     margin-top: 23px;
@@ -220,12 +220,12 @@ img.illus {
 #search input:last-of-type { width: 60px }
 
 #post-archive {
-    background: #3A3C2D;
+    background: #3a3c2d;
     margin-top: 9px;
     height: 152px
 }
 #post-archive h3 {
-    background: #9B96CA;
+    background: #9b96ca;
     display: block;
     padding-top: 7px;
     height: 26px;
@@ -247,7 +247,7 @@ img.illus {
     color: #fff
 }
 #tea-of-the-day {
-    background: #3A3C2D;
+    background: #3a3c2d;
     margin-top: 9px;
     height: 313px;
     color: #fff;
@@ -256,7 +256,7 @@ img.illus {
 #tea-of-the-day p { padding: 10px 13px 10px 13px }
 
 #tea-of-the-day h3 {
-    background: #9B96CA;
+    background: #9b96ca;
     display: block;
     padding-top: 7px;
     height: 26px;
@@ -279,7 +279,7 @@ img.pic {
 /**************************************************************{ FOOTER }*****/
 
 #footer {
-    background: #A0C63A;
+    background: #a0c63a;
     padding-top: 18px;
     height: 37px;
     text-indent: 40px;
