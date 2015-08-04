@@ -151,7 +151,8 @@ h1, h2, h3, h4, h5, h6 { font-weight: 400 }
 #navlinks li {
 	list-style-type: none;
 	display: inline;
-	color: #9999cc
+	color: #9999cc;
+	margin-right: 7px
 }
 #navlinks li a {
 	text-decoration: none;
