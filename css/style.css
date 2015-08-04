@@ -253,7 +253,8 @@ img.deco {
 	margin-top: 9px;
 	height: 313px;
 	color: #fff;
-	line-height: 120%
+	line-height: 120%;
+	margin-bottom: 50px
 }
 #tea-of-the-day p { padding: 10px 13px 10px 13px }
 
